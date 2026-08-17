@@ -1,0 +1,27 @@
+# =============================================================================
+#  Cloudflare Pages – HTTP-Header
+#  Diese Datei wird von Cloudflare automatisch ausgewertet. Format: ein Pfad-
+#  muster in Spalte 1, darunter die Header mit GENAU ZWEI LEERZEICHEN eingerückt.
+# =============================================================================
+
+/*
+  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet, noimageindex
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+  Cache-Control: public, max-age=0, must-revalidate
+
+# -----------------------------------------------------------------------------
+#  EINBETTUNG IN 4JUH
+#  Standardmäßig darf die Seite von überall in einen iframe geladen werden.
+#  Sobald du die Domain eures Intranets kennst, die folgende Zeile einkommen-
+#  tieren und <EURE-4JUH-DOMAIN> ersetzen. Danach lässt sich die Seite nur noch
+#  aus 4juh heraus einbetten – fremde Websites können sie nicht mehr in einen
+#  eigenen Rahmen setzen.
+#
+#  Content-Security-Policy: frame-ancestors 'self' https://<EURE-4JUH-DOMAIN>
+#
+#  Wenn die Seite ÜBERHAUPT NICHT eingebettet werden soll, stattdessen:
+#
+#  Content-Security-Policy: frame-ancestors 'none'
+# -----------------------------------------------------------------------------

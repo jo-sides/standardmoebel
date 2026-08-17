@@ -1,0 +1,6 @@
+# Diese Seite ist eine interne Arbeitshilfe und soll nicht in Suchmaschinen
+# auftauchen. Der eigentliche Schutz kommt aus dem X-Robots-Tag in der Datei
+# _headers – diese Datei hier ist die zusätzliche, höflich formulierte Bitte.
+
+User-agent: *
+Disallow: /
